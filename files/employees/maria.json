@@ -1,0 +1,1 @@
+{ "traceId": "12345", "req.id": "1000", "req.method":  "GET", "req.uri":"https://learnshare/rest/api","res.status.code":"500", "res.status.message":"success", "accept":"application/json" }, { "traceId": "12345", "req.id": "1000", "req.method":  "GET", "req.uri":"https://learnshare/rest/api","res.status.code":"500", "res.status.message":"success", "accept":"application/json" }
