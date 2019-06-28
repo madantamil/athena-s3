@@ -1,5 +1,8 @@
 # How to access S3 Bucket using Athena - Demo ?
 
+<img width="1189" alt="Screen Shot 2019-06-28 at 22 08 03" src="https://user-images.githubusercontent.com/30971809/60368508-52fd2280-99f1-11e9-8371-b6b547f45d64.png">
+
+
 Amazon Athena is a service that enables a data analyst to perform interactive SQL queries in the Amazon Simple Storage Service (S3).
 
 Athena is a serverless query service, an analyst doesn't need to manage any underlying compute infrastructure to use it.
@@ -18,6 +21,6 @@ Secure: With the help of IAM policies and AWS Identity, Athena gives you complet
 
 Highly available: With the assurance of AWS, Athena is highly available and the user can execute queries round the clock. As AWS is 99.999% available, so is Athena.
 
-<img width="1189" alt="Screen Shot 2019-06-28 at 22 08 03" src="https://user-images.githubusercontent.com/30971809/60368508-52fd2280-99f1-11e9-8371-b6b547f45d64.png">
+
 
 
