@@ -18,20 +18,22 @@
 Apache Web Logs, CSV, TSV, Text File with Custom Delimiters, JSON, Parquet, ORC
 
 DEMO 1:
-a. Create the employees json file in AWS S3 bucket.
+a. Create the employees json file in AWS S3 bucket.&nbsp;
+
 b. Create the table [employees] in AWS Athena and map the AWS S3 bucket.
-   table schema [  firstname string, lastname string, Dept string, Location string ]
+   table schema [  firstname string, lastname string, Dept string, Location string ]  &nbsp;
+   
 c. Run the SQL Query to get the data.
    (select * from sampledb.employees)
-   (select * from sampledb.employees where firstname = 'Martin')
+   (select * from sampledb.employees where firstname = 'Martin')  &nbsp;
 
 DEMO 2:
-a. Create the logs json file in AWS S3 bucket.
+a. Create the logs json file in AWS S3 bucket.&nbsp;
 b. Create the table [applogs] in AWS Athena and map the AWS S3 bucket.
-   table schema  [ traceId string, req.id string, req.method string, req.uri string, res.status.code string, res.status.message string, accept string ]
+   table schema  [ traceId string, req.id string, req.method string, req.uri string, res.status.code string, res.status.message string, accept string ]&nbsp;
 c. Run the SQL Query to get the data 
     (select * from sampledb.applogs)
-    (select * from sampledb.applogs where req.method='GET')
+    (select * from sampledb.applogs where req.method='GET')&nbsp;
 
 ## Benefits :
 
