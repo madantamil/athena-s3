@@ -5,6 +5,8 @@
 
 ## Amazon Athena is a service that enables a data analyst to perform interactive queries in the Amazon Simple Storage Service (S3).
 
+## Athena uses Presto, a distributed SQL engine to run queries. It also uses Apache hive to create, drop, and old tables and partitions. 
+
 ## Athena is a serverless query service, an analyst doesn't need to manage any underlying compute infrastructure to use it.
 
 ## It is not a Database service hence, you just pay for the queries you run. 
