@@ -11,13 +11,7 @@
 
 ## Data file format :
 
-Apache Web Logs
-CSV
-TSV
-Text File with Custom Delimiters
-JSON
-Parquet
-ORC
+Apache Web Logs, CSV, TSV, Text File with Custom Delimiters, JSON, Parquet, ORC
 
 ## Benefits :
 
