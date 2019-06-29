@@ -17,6 +17,20 @@
 
 Apache Web Logs, CSV, TSV, Text File with Custom Delimiters, JSON, Parquet, ORC
 
+DEMO 1:
+a. Create the employees json file in AWS S3 bucket.
+b. Create the table [employees] in AWS Athena and map the AWS S3 bucket.
+c. Run the SQL Query to get the data.
+   (select * from sampledb.employees)
+   (select * from sampledb.employees where firstname = 'Martin')
+
+DEMO 2:
+a. Create the logs json file in AWS S3 bucket.
+b. Create the table [applogs] in AWS Athena and map the AWS S3 bucket.
+c. Run the SQL Query to get the data 
+    (select * from sampledb.applogs)
+    (select * from sampledb.applogs where req.method='GET')
+
 ## Benefits :
 
 Easy Implementation: Athena doesn’t require installation. It can be accessed directly from the AWS Console also directly by AWS CLI.
