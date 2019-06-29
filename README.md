@@ -17,7 +17,7 @@
 
 Apache Web Logs, CSV, TSV, Text File with Custom Delimiters, JSON, Parquet, ORC
 
-DEMO 1: &nbsp;
+## DEMO 1: &nbsp;
 
 a. Create the employees json file in AWS S3 bucket.&nbsp;
 
@@ -28,7 +28,7 @@ c. Run the SQL Query to get the data.
    (select * from sampledb.employees)
    (select * from sampledb.employees where firstname = 'Martin')  &nbsp;
 
-DEMO 2:&nbsp;
+## DEMO 2:&nbsp;
 
 a. Create the logs json file in AWS S3 bucket.&nbsp;
 
