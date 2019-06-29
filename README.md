@@ -1,5 +1,7 @@
 ## How to access S3 Bucket using AWS Athena - Demo ?
 
+It helps to read the huge data from S3 bucket for analysing.
+
 <img width="1189" alt="Screen Shot 2019-06-28 at 22 08 03" src="https://user-images.githubusercontent.com/30971809/60368508-52fd2280-99f1-11e9-8371-b6b547f45d64.png">
 
 
